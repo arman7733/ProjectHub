@@ -1,0 +1,5 @@
+
+GET {{ProjectHub.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251113205355_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20251113205355_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\baserepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\baserepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\baserepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\baserepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 416,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\BaseRepository\\Repository.cs",
+              "RelativeDocumentMoniker": "Data\\BaseRepository\\Repository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\BaseRepository\\Repository.cs",
+              "RelativeToolTip": "Data\\BaseRepository\\Repository.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAcwGAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T21:11:48.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\BaseRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Data\\BaseRepository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\BaseRepository\\IRepository.cs",
+              "RelativeToolTip": "Data\\BaseRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T21:11:09.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251113205355_CreateDB.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251113205355_CreateDB.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251113205355_CreateDB.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251113205355_CreateDB.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251113205355_CreateDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:53:55.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:29:42.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Status.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Status.cs",
+              "RelativeToolTip": "Models\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:29:40.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Models\\Task.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Task.cs",
+              "RelativeToolTip": "Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:27:33.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:27:30.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:26:35.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:26:02.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 108,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# .NET Core
+bin/
+obj/
+
+# Node.js (React UI)
+node_modules/
+build/             
+*.log               
+npm-debug.log*
+yarn-error.log*
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store           
+Thumbs.db          
+
+# Visual Studio Code settings
+.vscode/
+
+# User-specific files
+.vs/
+
+# React specific (optional)
+npm-debug.log       
+yarn-debug.log      
