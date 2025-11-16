@@ -3,40 +3,164 @@
   "WorkspaceRootPath": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\helpers\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:helpers\\jwttokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251116221017_nullableTwoField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20251116221017_nullableTwoField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\baserepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\baserepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251116214926_EditUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20251116214926_EditUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\interfaces\\istatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\interfaces\\istatusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\interfaces\\ipriorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\interfaces\\ipriorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\projecthub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:projecthub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\baserepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\baserepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\repositories\\priorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\repositories\\priorityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\repositories\\statusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\repositories\\statusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\dtos\\statusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:dtos\\statusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\dtos\\prioritydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:dtos\\prioritydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\dtos\\basemodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:dtos\\basemodeldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\priority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251113205355_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20251113205355_CreateDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\baserepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\baserepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\baserepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\baserepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\migrations\\20251113205355_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\migrations\\20251113205355_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|c:\\users\\mrzne\\documents\\project\\projecthub\\projecthub.api\\data\\migrations\\20251115122908_editroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BEC2ED-722D-4FE5-956C-28A0EDC6DAA4}|ProjectHub.Api.csproj|solutionrelative:data\\migrations\\20251115122908_editroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,41 +170,528 @@
       "DocumentGroups": [
         {
           "DockedHeight": 416,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T14:09:41.436Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAmwE0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T14:08:57.706Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "20251116221017_nullableTwoField.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251116221017_nullableTwoField.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251116221017_nullableTwoField.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251116221017_nullableTwoField.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251116221017_nullableTwoField.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T22:10:17.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\BaseRepository\\Repository.cs",
               "RelativeDocumentMoniker": "Data\\BaseRepository\\Repository.cs",
               "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\BaseRepository\\Repository.cs",
               "RelativeToolTip": "Data\\BaseRepository\\Repository.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAcwGAAAAABAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwB8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T21:11:48.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAwGYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T14:08:57.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAkwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:02:13.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAwD8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:26:02.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:38:46.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:27:30.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Models\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\BaseModel.cs",
+              "RelativeToolTip": "Models\\BaseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:05:32.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JwtTokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Helpers\\JwtTokenHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\JwtTokenHelper.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Helpers\\JwtTokenHelper.cs",
+              "RelativeToolTip": "Helpers\\JwtTokenHelper.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAnwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T14:12:32.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProjectHub.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\ProjectHub.Api.csproj",
+              "RelativeDocumentMoniker": "ProjectHub.Api.csproj",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\ProjectHub.Api.csproj",
+              "RelativeToolTip": "ProjectHub.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-15T14:08:56.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\ITaskRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\ITaskRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:39:10.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IStatusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IStatusRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IStatusRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IStatusRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IStatusRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:41:50.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20251116214926_EditUser.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251116214926_EditUser.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251116214926_EditUser.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251116214926_EditUser.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251116214926_EditUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T21:49:27.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:41:24.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IProjectRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IProjectRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:39:36.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPriorityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IPriorityRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IPriorityRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Interfaces\\IPriorityRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IPriorityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:40:12.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-15T14:28:00.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T14:09:24.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Status.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Status.cs",
+              "RelativeToolTip": "Models\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:29:40.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\StatusDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\StatusDTO.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\StatusDTO.cs",
+              "RelativeToolTip": "DTOs\\StatusDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:03:23.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TaskDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\TaskDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\TaskDTO.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\TaskDTO.cs",
+              "RelativeToolTip": "DTOs\\TaskDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:03:34.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:03:46.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BaseModelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\BaseModelDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\BaseModelDTO.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\BaseModelDTO.cs",
+              "RelativeToolTip": "DTOs\\BaseModelDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T12:57:56.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PriorityDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\PriorityDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\PriorityDTO.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\PriorityDTO.cs",
+              "RelativeToolTip": "DTOs\\PriorityDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:02:19.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProjectDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\ProjectDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProjectDTO.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\ProjectDTO.cs",
+              "RelativeToolTip": "DTOs\\ProjectDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:02:36.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\ProjectRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\ProjectRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\ProjectRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\ProjectRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:02:26.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PriorityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\PriorityRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\PriorityRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\PriorityRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\PriorityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:02:04.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Priority.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Priority.cs",
+              "RelativeDocumentMoniker": "Models\\Priority.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Priority.cs",
+              "RelativeToolTip": "Models\\Priority.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:55:09.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Models\\Project.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Project.cs",
+              "RelativeToolTip": "Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:26:35.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:29:42.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Models\\Task.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Task.cs",
+              "RelativeToolTip": "Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:27:33.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\RoleDTO.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\DTOs\\RoleDTO.cs",
+              "RelativeToolTip": "DTOs\\RoleDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T13:02:35.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\TaskRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:02:22.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20251115122908_editRoles.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251115122908_editRoles.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251115122908_editRoles.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251115122908_editRoles.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251115122908_editRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T12:29:08.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "StatusRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\StatusRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\StatusRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\StatusRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\StatusRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwC4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:02:17.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\RoleRepository.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAiwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:02:32.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\BaseRepository\\IRepository.cs",
               "RelativeDocumentMoniker": "Data\\BaseRepository\\IRepository.cs",
               "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\BaseRepository\\IRepository.cs",
               "RelativeToolTip": "Data\\BaseRepository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABHAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T21:11:09.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 38,
               "Title": "20251113205355_CreateDB.cs",
               "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Migrations\\20251113205355_CreateDB.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20251113205355_CreateDB.cs",
@@ -90,88 +701,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T20:53:55.764Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "Models\\Role.cs",
-              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Role.cs",
-              "RelativeToolTip": "Models\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:29:42.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Status.cs",
-              "RelativeDocumentMoniker": "Models\\Status.cs",
-              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Status.cs",
-              "RelativeToolTip": "Models\\Status.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:29:40.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "Models\\Task.cs",
-              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Task.cs",
-              "RelativeToolTip": "Models\\Task.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:27:33.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:27:30.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Project.cs",
-              "RelativeDocumentMoniker": "Models\\Project.cs",
-              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Models\\Project.cs",
-              "RelativeToolTip": "Models\\Project.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:26:35.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\mrzne\\Documents\\Project\\ProjectHub\\ProjectHub.Api\\Data\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAswD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:26:02.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         },

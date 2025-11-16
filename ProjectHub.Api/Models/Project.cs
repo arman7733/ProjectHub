@@ -8,5 +8,7 @@
         public Guid StatusId { get; set; } 
         public int Progress { get; set; } 
         public DateTime Deadline { get; set; }
+        public ICollection<Task> Tasks { get; set; }
+
     }
 }

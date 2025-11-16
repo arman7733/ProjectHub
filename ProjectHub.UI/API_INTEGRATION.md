@@ -5,14 +5,17 @@ This document explains how to integrate this React frontend with your ASP.NET Co
 ## Configuration
 
 1. **Environment Variables**
+
    - Copy `.env.example` to `.env`
    - Set `VITE_API_URL` to your .NET Core API base URL
+
    ```bash
-   VITE_API_URL=https://localhost:5001/api
+   VITE_API_URL=http://localhost:5001/api
    ```
 
 2. **CORS Configuration (Backend)**
    Your .NET Core API must allow requests from the frontend:
+
    ```csharp
    // Program.cs or Startup.cs
    builder.Services.AddCors(options =>
@@ -26,13 +29,14 @@ This document explains how to integrate this React frontend with your ASP.NET Co
                      .AllowCredentials();
            });
    });
-   
+
    app.UseCors("AllowReactApp");
    ```
 
 ## API Endpoints Expected
 
 ### Authentication
+
 ```
 POST /api/auth/login
 Body: { "email": "string", "password": "string" }
@@ -44,6 +48,7 @@ Response: { "token": "string", "user": User }
 ```
 
 ### Projects
+
 ```
 GET /api/projects
 Response: Project[]
@@ -64,6 +69,7 @@ Response: 204 No Content
 ```
 
 ### Tasks
+
 ```
 GET /api/tasks
 Response: Task[]
@@ -84,6 +90,7 @@ Response: 204 No Content
 ```
 
 ### Team
+
 ```
 GET /api/team
 Response: User[]
@@ -104,6 +111,7 @@ Response: 204 No Content
 ```
 
 ### Dashboard
+
 ```
 GET /api/dashboard/stats
 Response: { "totalProjects": number, "activeTasks": number, "teamMembers": number, "pendingReviews": number }
@@ -112,11 +120,13 @@ Response: { "totalProjects": number, "activeTasks": number, "teamMembers": numbe
 ## JWT Authentication
 
 The frontend automatically:
+
 1. Stores JWT token in localStorage after login
 2. Adds `Authorization: Bearer {token}` header to all requests
 3. Redirects to login on 401 responses
 
 Your .NET Core API should:
+
 ```csharp
 // Configure JWT authentication
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -139,6 +149,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 ## Data Models (Expected by Frontend)
 
 ### User
+
 ```csharp
 public class User
 {
@@ -152,6 +163,7 @@ public class User
 ```
 
 ### Project
+
 ```csharp
 public class Project
 {
@@ -169,6 +181,7 @@ public class Project
 ```
 
 ### Task
+
 ```csharp
 public class Task
 {
@@ -189,6 +202,7 @@ public class Task
 ## Validation
 
 All forms use Zod schema validation on the client side. Your backend should also validate:
+
 - Email format and uniqueness
 - Required fields
 - String length limits
@@ -198,6 +212,7 @@ All forms use Zod schema validation on the client side. Your backend should also
 ## Error Handling
 
 The frontend expects errors in this format:
+
 ```json
 {
   "message": "Error message",

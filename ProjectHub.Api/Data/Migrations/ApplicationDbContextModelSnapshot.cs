@@ -39,13 +39,13 @@ namespace ProjectHub.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<Guid>("UserCreator")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserUpdator")
+                    b.Property<Guid?>("UserUpdator")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
@@ -82,13 +82,13 @@ namespace ProjectHub.Api.Data.Migrations
                     b.Property<Guid>("StatusId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<Guid>("UserCreator")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserUpdator")
+                    b.Property<Guid?>("UserUpdator")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
@@ -117,13 +117,13 @@ namespace ProjectHub.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<Guid>("UserCreator")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserUpdator")
+                    b.Property<Guid?>("UserUpdator")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
@@ -148,13 +148,13 @@ namespace ProjectHub.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<Guid>("UserCreator")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserUpdator")
+                    b.Property<Guid?>("UserUpdator")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
@@ -184,6 +184,9 @@ namespace ProjectHub.Api.Data.Migrations
                     b.Property<Guid>("ProjectId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("ProjectId1")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<Guid>("StatusId")
                         .HasColumnType("uniqueidentifier");
 
@@ -191,13 +194,13 @@ namespace ProjectHub.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<Guid>("UserCreator")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserUpdator")
+                    b.Property<Guid?>("UserUpdator")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
@@ -207,6 +210,8 @@ namespace ProjectHub.Api.Data.Migrations
                     b.HasIndex("PriorityId");
 
                     b.HasIndex("ProjectId");
+
+                    b.HasIndex("ProjectId1");
 
                     b.HasIndex("StatusId");
 
@@ -230,23 +235,37 @@ namespace ProjectHub.Api.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("RoleId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdatedAt")
+                    b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<Guid>("UserCreator")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("UserUpdator")
+                    b.Property<Guid?>("UserUpdator")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RoleId");
-
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("RoleUser", b =>
+                {
+                    b.Property<Guid>("RolesId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("RolesId", "UserId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RoleUser");
                 });
 
             modelBuilder.Entity("ProjectHub.Api.Models.Project", b =>
@@ -283,6 +302,10 @@ namespace ProjectHub.Api.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("ProjectHub.Api.Models.Project", null)
+                        .WithMany("Tasks")
+                        .HasForeignKey("ProjectId1");
+
                     b.HasOne("ProjectHub.Api.Models.Status", null)
                         .WithMany()
                         .HasForeignKey("StatusId")
@@ -290,13 +313,24 @@ namespace ProjectHub.Api.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ProjectHub.Api.Models.User", b =>
+            modelBuilder.Entity("RoleUser", b =>
                 {
                     b.HasOne("ProjectHub.Api.Models.Role", null)
                         .WithMany()
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .HasForeignKey("RolesId")
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("ProjectHub.Api.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ProjectHub.Api.Models.Project", b =>
+                {
+                    b.Navigation("Tasks");
                 });
 #pragma warning restore 612, 618
         }

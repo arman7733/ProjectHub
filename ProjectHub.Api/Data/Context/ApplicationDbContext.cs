@@ -21,11 +21,10 @@ namespace ProjectHub.Api.Data.Context
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<User>()
-                .HasOne<Role>()
-                .WithMany()
-                .HasForeignKey("RoleId")
-                .OnDelete(DeleteBehavior.Restrict);                    
-    
+                .HasMany(u => u.Roles)
+                .WithMany();
+            
+
             modelBuilder.Entity<Project>()
                 .HasOne<Status>()
                 .WithMany()

@@ -93,5 +93,20 @@ namespace ProjectHub.Api.Data.BaseRepository
 
             await Commit();
         }
+
+        public async Task<bool> DeleteById<TModel>(long id) where TModel : BaseModel
+        {
+            var entity = await GetById<TModel>(id);
+            try
+            {
+                await Delete(entity);
+                await Commit();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
     }
 }
