@@ -1,5 +1,5 @@
-import { Bell, LogOut, User } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Bell, LogOut, User } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -7,12 +7,42 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import { useAuth } from '@/contexts/AuthContext';
-import { Badge } from '@/components/ui/badge';
+} from "@/components/ui/dropdown-menu";
+import { useAuth } from "@/contexts/AuthContext";
+import { Badge } from "@/components/ui/badge";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+
+const parseJwt = (token: string): any | null => {
+  try {
+    const base64Url = token.split(".")[1];
+    const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/");
+    const jsonPayload = decodeURIComponent(
+      atob(base64)
+        .split("")
+        .map((c) => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2))
+        .join("")
+    );
+    return JSON.parse(jsonPayload);
+  } catch {
+    return null;
+  }
+};
 
 export const Header = () => {
   const { user, logout } = useAuth();
+
+  const token =
+    typeof window !== "undefined" ? localStorage.getItem("token") : null;
+  const payload = token ? parseJwt(token) : null;
+
+  const displayEmail = user?.email || (payload?.sub as string) || "";
+  const displayName =
+    user?.name || (displayEmail ? displayEmail.split("@")[0] : "");
+  const displayRole =
+    (user?.role as string | undefined) ||
+    (payload?.role as string | undefined) ||
+    "";
+  const initial = (displayName || displayEmail || "U").charAt(0).toUpperCase();
 
   return (
     <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -64,23 +94,33 @@ export const Header = () => {
           {/* User menu */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="ghost" className="gap-2">
-                <User className="h-5 w-5" />
-                <span>{user?.name}</span>
+              <Button variant="ghost" className="gap-3 h-auto py-2">
+                <Avatar className="h-8 w-8">
+                  <AvatarFallback className="bg-primary text-primary-foreground text-sm">
+                    {initial}
+                  </AvatarFallback>
+                </Avatar>
+                <div className="flex flex-col items-start">
+                  <span className="text-sm font-medium">{displayName}</span>
+                  <Badge variant="secondary" className="text-xs h-5">
+                    {displayRole}
+                  </Badge>
+                </div>
               </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
+            <DropdownMenuContent align="end" className="w-56">
               <DropdownMenuLabel>
-                <div className="flex flex-col">
-                  <span>{user?.name}</span>
-                  <span className="text-xs font-normal text-muted-foreground">{user?.email}</span>
-                  <Badge variant="secondary" className="mt-1 w-fit">{user?.role}</Badge>
+                <div className="flex flex-col space-y-1">
+                  <p className="text-sm font-medium">{displayName}</p>
+                  <p className="text-xs text-muted-foreground">
+                    {displayEmail}
+                  </p>
                 </div>
               </DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem onClick={logout}>
+              <DropdownMenuItem onClick={logout} className="cursor-pointer">
                 <LogOut className="mr-2 h-4 w-4" />
-                Logout
+                خروج از حساب
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

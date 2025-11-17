@@ -35,19 +35,46 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
-      setUser(JSON.parse(storedUser));
+      try {
+        const parsedUser = JSON.parse(storedUser);
+        console.log("Loaded user from localStorage:", parsedUser);
+        setUser(parsedUser);
+      } catch (error) {
+        console.error("Error parsing user from localStorage:", error);
+        localStorage.removeItem("user");
+        localStorage.removeItem("token");
+      }
     }
   }, []);
 
   const login = async (email: string, password: string) => {
     try {
       const response = await api.post("/auth/login", { email, password });
-      const { token, user: userData } = response.data;
+      console.log("Login response:", response.data);
 
-      localStorage.setItem("token", token);
+      // Handle .NET Core response structure
+      const backendData = response.data.result || response.data;
+      const token = response.data.token || backendData.token;
+
+      // Transform backend data to frontend User structure
+      const userData: User = {
+        id: backendData.id,
+        email: backendData.email,
+        name: backendData.name,
+        role: Array.isArray(backendData.roles)
+          ? backendData.roles[0]
+          : backendData.role,
+      };
+
+      console.log("User data transformed:", userData);
+
+      if (token) {
+        localStorage.setItem("token", token);
+      }
       localStorage.setItem("user", JSON.stringify(userData));
       setUser(userData);
     } catch (error) {
+      console.error("Login error:", error);
       throw new Error("Invalid credentials");
     }
   };
@@ -65,12 +92,31 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
         name,
         role,
       });
-      const { token, user: userData } = response.data;
+      console.log("Register response:", response.data);
 
-      localStorage.setItem("token", token);
+      // Handle .NET Core response structure
+      const backendData = response.data.result || response.data;
+      const token = response.data.token || backendData.token;
+
+      // Transform backend data to frontend User structure
+      const userData: User = {
+        id: backendData.id,
+        email: backendData.email,
+        name: backendData.name,
+        role: Array.isArray(backendData.roles)
+          ? backendData.roles[0]
+          : backendData.role,
+      };
+
+      console.log("User data transformed:", userData);
+
+      if (token) {
+        localStorage.setItem("token", token);
+      }
       localStorage.setItem("user", JSON.stringify(userData));
       setUser(userData);
     } catch (error) {
+      console.error("Registration error:", error);
       throw new Error("Registration failed");
     }
   };

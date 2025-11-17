@@ -1,10 +1,16 @@
-import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Progress } from '@/components/ui/progress';
-import { Plus, Search, Calendar, Users } from 'lucide-react';
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Progress } from "@/components/ui/progress";
+import { Plus, Search, Calendar, Users } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -12,54 +18,54 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from '@/components/ui/dialog';
-import { ProjectForm } from '@/components/forms/ProjectForm';
+} from "@/components/ui/dialog";
+import { ProjectForm } from "@/components/forms/ProjectForm";
 
 const projects = [
   {
     id: 1,
-    name: 'E-commerce Platform',
-    description: 'Building a modern e-commerce solution',
-    status: 'In Progress',
+    name: "E-commerce Platform",
+    description: "Building a modern e-commerce solution",
+    status: "In Progress",
     progress: 75,
-    manager: 'John Doe',
+    manager: "John Doe",
     team: 8,
-    deadline: '2025-12-15',
+    deadline: "2025-12-15",
   },
   {
     id: 2,
-    name: 'Mobile App Redesign',
-    description: 'Redesigning the mobile application UI/UX',
-    status: 'In Progress',
+    name: "Mobile App Redesign",
+    description: "Redesigning the mobile application UI/UX",
+    status: "In Progress",
     progress: 45,
-    manager: 'Sarah Johnson',
+    manager: "Sarah Johnson",
     team: 5,
-    deadline: '2025-11-30',
+    deadline: "2025-11-30",
   },
   {
     id: 3,
-    name: 'API Integration',
-    description: 'Integrating third-party APIs',
-    status: 'Review',
+    name: "API Integration",
+    description: "Integrating third-party APIs",
+    status: "Review",
     progress: 90,
-    manager: 'Mike Wilson',
+    manager: "Mike Wilson",
     team: 3,
-    deadline: '2025-11-15',
+    deadline: "2025-11-15",
   },
   {
     id: 4,
-    name: 'Dashboard Analytics',
-    description: 'Creating analytics dashboard',
-    status: 'Planning',
+    name: "Dashboard Analytics",
+    description: "Creating analytics dashboard",
+    status: "Planning",
     progress: 30,
-    manager: 'Emily Brown',
+    manager: "Emily Brown",
     team: 6,
-    deadline: '2026-01-20',
+    deadline: "2026-01-20",
   },
 ];
 
 export default function Projects() {
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState("");
   const [dialogOpen, setDialogOpen] = useState(false);
 
   const filteredProjects = projects.filter((project) =>
@@ -68,14 +74,14 @@ export default function Projects() {
 
   const getStatusColor = (status: string) => {
     switch (status) {
-      case 'In Progress':
-        return 'bg-info text-info-foreground';
-      case 'Review':
-        return 'bg-warning text-warning-foreground';
-      case 'Planning':
-        return 'bg-secondary text-secondary-foreground';
+      case "In Progress":
+        return "bg-info text-info-foreground";
+      case "Review":
+        return "bg-warning text-warning-foreground";
+      case "Planning":
+        return "bg-secondary text-secondary-foreground";
       default:
-        return 'bg-muted text-muted-foreground';
+        return "bg-muted text-muted-foreground";
     }
   };
 
@@ -84,7 +90,9 @@ export default function Projects() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold">Projects</h1>
-          <p className="text-muted-foreground">Manage and track your projects</p>
+          <p className="text-muted-foreground">
+            Manage and track your projects
+          </p>
         </div>
         <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
           <DialogTrigger asChild>
@@ -96,7 +104,9 @@ export default function Projects() {
           <DialogContent className="sm:max-w-[525px]">
             <DialogHeader>
               <DialogTitle>Create New Project</DialogTitle>
-              <DialogDescription>Add a new project to your workspace</DialogDescription>
+              <DialogDescription>
+                Add a new project to your workspace
+              </DialogDescription>
             </DialogHeader>
             <div className="py-4">
               <ProjectForm onSuccess={() => setDialogOpen(false)} />
@@ -119,14 +129,19 @@ export default function Projects() {
 
       <div className="grid gap-4 md:grid-cols-2">
         {filteredProjects.map((project) => (
-          <Card key={project.id} className="hover:shadow-lg transition-shadow cursor-pointer">
+          <Card
+            key={project.id}
+            className="hover:shadow-lg transition-shadow cursor-pointer"
+          >
             <CardHeader>
               <div className="flex items-start justify-between">
                 <div className="space-y-1">
                   <CardTitle>{project.name}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
                 </div>
-                <Badge className={getStatusColor(project.status)}>{project.status}</Badge>
+                <Badge className={getStatusColor(project.status)}>
+                  {project.status}
+                </Badge>
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -148,8 +163,12 @@ export default function Projects() {
                 </div>
               </div>
               <div className="flex items-center justify-between pt-2 border-t">
-                <span className="text-sm text-muted-foreground">Manager: {project.manager}</span>
-                <Button variant="outline" size="sm">View Details</Button>
+                <span className="text-sm text-muted-foreground">
+                  Manager: {project.manager}
+                </span>
+                <Button variant="outline" size="sm">
+                  View Details
+                </Button>
               </div>
             </CardContent>
           </Card>
